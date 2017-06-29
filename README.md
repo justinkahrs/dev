@@ -1,2 +1,2 @@
 ## Usage
-curl https://raw.githubusercontent.com/justinkahrs/dev/master/setup.sh
+curl https://raw.githubusercontent.com/justinkahrs/dev/master/setup.sh | bash
