@@ -6,7 +6,7 @@
 sudo apt-get update
 
 # install these packages
-sudo apt-get install vim git gdebi maven htop -y
+sudo apt-get install vim git gdebi maven htop openvpn -y
 
 # install npm and node via nvm 
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
