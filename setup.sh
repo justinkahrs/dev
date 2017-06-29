@@ -14,9 +14,10 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | b
 # add umake repo,  install intellij and atom
 sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make -y
 sudo apt-get update
-sudo apt-get instal ubuntu-make -y
+sudo apt-get install ubuntu-make -y
 umake ide idea-ultimate
 umake ide atom
 
-
+# remove anything we don't need
+sudo apt-get autoremove -y
 
