@@ -18,6 +18,9 @@ sudo apt-get install ubuntu-make -y
 umake ide idea-ultimate
 umake ide atom
 
+# upgrade while we are at it
+sudo apt-get upgrade -y
+
 # remove anything we don't need
 sudo apt-get autoremove -y
 
