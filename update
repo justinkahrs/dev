@@ -1,0 +1,14 @@
+#!/bin/bash
+clear
+
+echo "Updating"
+
+sudo apt-get update
+echo
+echo "Upgrading"
+echo
+sudo apt-get upgrade -y
+echo
+echo "Cleaning up"
+echo
+sudo apt-get autoremove -y
